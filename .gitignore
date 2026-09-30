@@ -1,0 +1,25 @@
+# Datasets (download separately, see README.md)
+data/*
+!data/.gitkeep
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.pkl
+
+# Experiment outputs & logs
+runs/
+runs_*/
+*.log
+*.csv
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
